@@ -81,7 +81,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Pedido de reembolso exige conferência humana."
           ]
         },
@@ -171,7 +171,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Possível urgência elevada."
           ]
         },
@@ -261,7 +261,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória."
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória."
           ]
         },
         "runtime": {
@@ -350,7 +350,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Confiança abaixo do limiar de triagem configurado.",
             "Categoria residual; confirme o destino."
           ]
@@ -441,7 +441,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória."
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória."
           ]
         },
         "runtime": {
@@ -530,7 +530,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Possível urgência elevada."
           ]
         },
@@ -620,7 +620,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Confiança abaixo do limiar de triagem configurado."
           ]
         },
@@ -710,7 +710,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Confiança abaixo do limiar de triagem configurado."
           ]
         },
@@ -800,7 +800,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória."
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória."
           ]
         },
         "runtime": {
@@ -889,7 +889,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória."
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória."
           ]
         },
         "runtime": {
@@ -978,7 +978,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Confiança abaixo do limiar de triagem configurado."
           ]
         },
@@ -1068,7 +1068,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Categoria residual; confirme o destino."
           ]
         },
@@ -1158,7 +1158,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Pedido de reembolso exige conferência humana."
           ]
         },
@@ -1248,7 +1248,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.",
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.",
             "Possível urgência elevada."
           ]
         },
@@ -1338,7 +1338,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória."
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória."
           ]
         },
         "runtime": {
@@ -1427,7 +1427,7 @@
           "automated_action_executed": false,
           "threshold": 0.85,
           "reasons": [
-            "Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória."
+            "Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória."
           ]
         },
         "runtime": {
@@ -1441,5 +1441,5 @@
       }
     }
   ],
-  "limitations": "Amostra didática pequena e sintética. Não é validação de produção nem calibração."
+  "limitations": "Amostra didática pequena e sintética. Nêo é validaçêo de produçêo nem calibraçêo."
 }

@@ -4,8 +4,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Laya INEMA — Decisões locais, revisão humana</title>
-<meta content="Triagem em português com Laya: interface local, API, CLI e avaliação reproduzível." name="description"/>
+<title>Laya INEMA — Decisões locais, revisêo humana</title>
+<meta content="Triagem em português com Laya: interface local, API, CLI e avaliaçêo reproduzível." name="description"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet"/>
@@ -115,9 +115,9 @@
 <div class="glow"></div>
 <div class="wrap">
 <div>
-<span class="chip">Motor de decisão · Laboratório prático</span>
-<h1>Seu atendimento começa com uma <span class="amb">decisão.</span></h1>
-<p class="lead">Rode o Laya na sua máquina. Classifique tickets em português, confira os sinais e encaminhe para revisão.</p>
+<span class="chip">Motor de decisêo · Laboratório prático</span>
+<h1>Seu atendimento começa com uma <span class="amb">decisêo.</span></h1>
+<p class="lead">Rode o Laya na sua máquina. Classifique tickets em português, confira os sinais e encaminhe para revisêo.</p>
 <div class="cta">
 <a class="btn" href="#guia">Começar o guia</a>
 <a class="btn ghost" href="https://github.com/inematds/laya" rel="noopener" target="_blank">Ver no GitHub</a>
@@ -129,59 +129,59 @@
 <section id="oque"><div class="wrap">
 <span class="chip">O que é</span>
 <h2>Quatro sinais. Um próximo passo.</h2>
-<p class="sub">Um fork do Laya oficial com uma aplicação pequena e verificável. O modelo sugere; a pessoa confirma.</p>
+<p class="sub">Um fork do Laya oficial com uma aplicaçêo pequena e verificável. O modelo sugere; a pessoa confirma.</p>
 <div class="grid g3">
 <div class="card"><h3>◈ Triagem em português</h3><p>Departamento, urgência, ameaça de cancelamento e pedido de reembolso com o checkpoint multilingual.</p></div>
 <div class="card"><h3>◈ Interface, API e terminal</h3><p>Escolha o navegador para experimentar ou use JSON para integrar a um processo local.</p></div>
-<div class="card"><h3>◈ Avaliação incluída</h3><p>16 tickets sintéticos, métricas e previsões registradas. Os erros também fazem parte da entrega.</p></div>
+<div class="card"><h3>◈ Avaliaçêo incluída</h3><p>16 tickets sintéticos, métricas e previsões registradas. Os erros também fazem parte da entrega.</p></div>
 </div>
 </div></section>
 <section id="fluxo"><div class="wrap">
 <span class="chip">Como funciona</span>
-<h2>Do texto à recomendação</h2>
-<p class="sub">A entrada é validada antes da inferência. A aplicação recusa texto que perderia tokens e mantém revisão humana em todas as respostas.</p>
+<h2>Do texto à recomendaçêo</h2>
+<p class="sub">A entrada é validada antes da inferência. A aplicaçêo recusa texto que perderia tokens e mantém revisêo humana em todas as respostas.</p>
 <div class="flow">
 <span>Ticket em PT</span><span class="arr">→</span>
-<span>Validação + Laya</span><span class="arr">→</span>
-<span>Revisão humana</span>
+<span>Validaçêo + Laya</span><span class="arr">→</span>
+<span>Revisêo humana</span>
 </div>
 </div></section>
 <section id="pre"><div class="wrap">
 <span class="chip">Pré-requisitos</span>
 <h2>Prepare o ambiente</h2>
-<p class="sub">Python 3.10+ recomendado (testado com 3.12), Git, espaço para pesos e internet na primeira carga. GPU é opcional; CPU é o padrão.</p>
+<p class="sub">Python 3.10+ recomendado (testado com 3.12), Git, espaço para pesos e internet na primeira carga. GPU é opcional; CPU é o padrêo.</p>
 <div class="grid g3">
-<div class="card"><h3>Confira Python e Git</h3><p>Use um ambiente virtual. Se optar por GPU, instale uma versão do PyTorch compatível com seu hardware.</p><pre><span class="c"># comando</span>
+<div class="card"><h3>Confira Python e Git</h3><p>Use um ambiente virtual. Se optar por GPU, instale uma versêo do PyTorch compatível com seu hardware.</p><pre><span class="c"># comando</span>
 python3 --version
 git --version</pre></div>
 </div>
 </div></section>
 <section id="guia"><div class="wrap">
 <span class="chip">Guia de uso · passo a passo</span>
-<h2>Da instalação ao primeiro ticket</h2>
+<h2>Da instalaçêo ao primeiro ticket</h2>
 <p class="sub">Comandos para Linux/macOS. No Windows, ative o ambiente com .venv\Scripts\activate. O site publicado é o guia; a inferência acontece no servidor local.</p>
 <div class="step"><div class="b">1</div><div><h3>Instale o projeto</h3><p>O clone preserva o SDK oficial e adiciona a pasta practical.</p><pre>git clone https://github.com/inematds/laya.git
 cd laya
 python3 -m venv .venv
 source .venv/bin/activate
-python3 -m pip install -e . -r practical/requirements.txt</pre></div></div><div class="step"><div class="b">2</div><div><h3>Prepare os pesos</h3><p>Baixa e carrega somente multilingual. A primeira execução demora mais.</p><pre>python3 -m practical download</pre></div></div><div class="step"><div class="b">3</div><div><h3>Experimente pelo terminal</h3><p>A saída é JSON. Nenhuma ação externa é executada.</p><pre>python3 -m practical triage \
+python3 -m pip install -e . -r practical/requirements.txt</pre></div></div><div class="step"><div class="b">2</div><div><h3>Prepare os pesos</h3><p>Baixa e carrega somente multilingual. A primeira execuçêo demora mais.</p><pre>python3 -m practical download</pre></div></div><div class="step"><div class="b">3</div><div><h3>Experimente pelo terminal</h3><p>A saída é JSON. Nenhuma açêo externa é executada.</p><pre>python3 -m practical triage \
   --message "Fui cobrado duas vezes. Quero o reembolso."</pre></div></div><div class="step"><div class="b">4</div><div><h3>Abra a mesa de triagem</h3><p>Abra http://127.0.0.1:8765 no navegador da mesma máquina. Porta ocupada? Use --port 8875.</p><pre>python3 -m practical serve --port 8765
 # GPU opcional: --device vem antes do subcomando
-python3 -m practical --device cuda serve --port 8875</pre></div></div><div class="step"><div class="b">5</div><div><h3>Integre pela API</h3><p>HTTP 422 indica entrada inválida; 503 indica modelo indisponível. Só use a previsão após HTTP 200.</p><pre>curl -X POST http://127.0.0.1:8765/api/triage \
+python3 -m practical --device cuda serve --port 8875</pre></div></div><div class="step"><div class="b">5</div><div><h3>Integre pela API</h3><p>HTTP 422 indica entrada inválida; 503 indica modelo indisponível. Só use a previsêo após HTTP 200.</p><pre>curl -X POST http://127.0.0.1:8765/api/triage \
   -H "Content-Type: application/json" \
   -d '{"message":"Quero contratar o plano empresarial."}'</pre></div></div><div class="step"><div class="b">6</div><div><h3>Meça e inspecione os erros</h3><p>Compare a saída com os rótulos esperados e preserve as condições do teste.</p><pre>python3 -m practical --device cuda evaluate --output avaliacao.json
 python3 -m unittest discover -s tests/practical -v</pre></div></div></div></section>
 <section id="exemplos"><div class="wrap">
 <span class="chip">Exemplos</span>
 <h2>O que aconteceu no teste real</h2>
-<p class="sub">NVIDIA GB10, checkpoint multilingual, quatro perguntas por mensagem. Amostra didática pequena: não é uma validação para produção.</p>
-<div class="grid g2"><div class="card"><h3>13 de 16 departamentos corretos</h3><p>81,25% de acurácia, contra baseline majoritária de 25%. Brier multiclasses: 0,30835; ECE em dez faixas: 0,17988.</p><p><a href="https://github.com/inematds/laya/blob/main/docs/avaliacao-local.json">Inspecionar todos os resultados →</a></p></div><div class="card"><h3>Três erros preservados</h3><p>Compra de 20 licenças foi para financeiro. Previsão do tempo e mensagem enviada por engano foram para suporte técnico.</p><p>O resultado mostra por que a política mantém revisão humana, inclusive em previsões confiantes.</p></div></div><p class="sub">A confiança de choice no SDK mede concentração da distribuição, não garantia de acerto. Churn neste esquema é ameaça explícita no texto. Nenhuma dessas saídas autoriza estorno ou cancelamento.</p></div></section>
+<p class="sub">NVIDIA GB10, checkpoint multilingual, quatro perguntas por mensagem. Amostra didática pequena: nêo é uma validaçêo para produçêo.</p>
+<div class="grid g2"><div class="card"><h3>13 de 16 departamentos corretos</h3><p>81,25% de acurácia, contra baseline majoritária de 25%. Brier multiclasses: 0,30835; ECE em dez faixas: 0,17988.</p><p><a href="https://github.com/inematds/laya/blob/main/docs/avaliacao-local.json">Inspecionar todos os resultados →</a></p></div><div class="card"><h3>Três erros preservados</h3><p>Compra de 20 licenças foi para financeiro. Previsêo do tempo e mensagem enviada por engano foram para suporte técnico.</p><p>O resultado mostra por que a política mantém revisêo humana, inclusive em previsões confiantes.</p></div></div><p class="sub">A confiança de choice no SDK mede concentraçêo da distribuiçêo, nêo garantia de acerto. Churn neste esquema é ameaça explícita no texto. Nenhuma dessas saídas autoriza estorno ou cancelamento.</p></div></section>
 <section id="roadmap"><div class="wrap">
 <span class="chip">Roadmap</span>
 <h2>O que existe e o que vem depois</h2>
-<p class="sub">As próximas etapas dependem de dados próprios e de critérios de operação. Não há treinamento automático nesta entrega.</p>
-<div class="phase"><div class="tag">ENTREGUE</div><div class="d"><strong>Laboratório executável</strong><span>CLI, API, interface, validação de entrada, política de revisão, exemplos e avaliação.</span></div></div>
-<div class="phase"><div class="tag">PRÓXIMO</div><div class="d"><strong>Dados do seu domínio</strong><span>Construir e rotular amostras representativas, incluindo negações e casos fora do escopo.</span></div></div><div class="phase"><div class="tag">APÓS MEDIR</div><div class="d"><strong>Especialização e operação gradual</strong><span>Calibrar, avaliar dados reservados e considerar fine-tuning. Automação exige política adicional validada.</span></div></div><p><a class="btn" href="https://inematds.github.io/laya-curso/">Estudar no curso v2 →</a></p>
+<p class="sub">As próximas etapas dependem de dados próprios e de critérios de operaçêo. Nêo há treinamento automático nesta entrega.</p>
+<div class="phase"><div class="tag">ENTREGUE</div><div class="d"><strong>Laboratório executável</strong><span>CLI, API, interface, validaçêo de entrada, política de revisêo, exemplos e avaliaçêo.</span></div></div>
+<div class="phase"><div class="tag">PRÓXIMO</div><div class="d"><strong>Dados do seu domínio</strong><span>Construir e rotular amostras representativas, incluindo negações e casos fora do escopo.</span></div></div><div class="phase"><div class="tag">APÓS MEDIR</div><div class="d"><strong>Especializaçêo e operaçêo gradual</strong><span>Calibrar, avaliar dados reservados e considerar fine-tuning. Automaçêo exige política adicional validada.</span></div></div><p><a class="btn" href="https://inematds.github.io/laya-curso/">Estudar no curso v2 →</a></p>
 </div></section>
 <footer>
 <div class="wrap">

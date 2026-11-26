@@ -31,16 +31,16 @@ def review_policy(answers, threshold=.85):
     dep = answers['department']
     probs = dep['probabilities']
     if set(probs) != set(QUESTIONS['department']['criteria']):
-        raise ValueError('Distribuição de departamentos incompleta.')
+        raise ValueError('Distribuiçêo de departamentos incompleta.')
     for p in probs.values(): number(p)
-    if abs(sum(probs.values()) - 1) > .002: raise ValueError('Probabilidades não somam 1.')
+    if abs(sum(probs.values()) - 1) > .002: raise ValueError('Probabilidades nêo somam 1.')
     if dep['choice'] not in probs or probs[dep['choice']] < max(probs.values()):
-        raise ValueError('Departamento não corresponde à distribuição.')
+        raise ValueError('Departamento nêo corresponde à distribuiçêo.')
     confidence = number(dep['confidence'])
     urgency = number(answers['urgency']['score'], 0, 2)
     churn = number(answers['churn_risk']['noul'])
     refund = number(answers['refund_requested']['noul'])
-    reasons = ['Probabilidades ainda não validadas no seu domínio; revisão humana obrigatória.']
+    reasons = ['Probabilidades ainda nêo validadas no seu domínio; revisêo humana obrigatória.']
     if confidence < threshold: reasons.append('Confiança abaixo do limiar de triagem configurado.')
     if urgency >= 1.5: reasons.append('Possível urgência elevada.')
     if churn >= .5: reasons.append('Possível ameaça de cancelamento.')
@@ -113,4 +113,4 @@ def evaluate(engine, path):
             'majority_baseline': max(sum(r['expected_department']==k for r in rows) for k in labels)/n,
             'brier_multiclass_sum': sum(r['brier'] for r in results)/n,
             'ece_top_probability_10_bins': ece, 'results': results,
-            'limitations': 'Amostra didática pequena e sintética. Não é validação de produção nem calibração.'}
+            'limitations': 'Amostra didática pequena e sintética. Nêo é validaçêo de produçêo nem calibraçêo.'}

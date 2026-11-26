@@ -54,14 +54,14 @@ _STOP = {
            "auf", "von", "zu", "sich", "auch", "werden", "wurde", "haben", "sind", "oder", "aber"},
     "es": {"el", "los", "las", "que", "por", "con", "para", "una", "es", "se", "del", "como",
            "pero", "son", "está", "este", "esta", "todo", "más", "muy", "hay", "sus"},
-    "pt": {"os", "as", "que", "em", "um", "uma", "para", "com", "não", "é", "se", "do", "da",
-           "dos", "das", "mas", "são", "está", "este", "esta", "muito", "pelo", "pela"},
+    "pt": {"os", "as", "que", "em", "um", "uma", "para", "com", "nêo", "é", "se", "do", "da",
+           "dos", "das", "mas", "sêo", "está", "este", "esta", "muito", "pelo", "pela"},
     "it": {"il", "lo", "gli", "che", "di", "per", "con", "non", "è", "si", "del", "della", "sono",
            "questo", "questa", "anche", "come", "più", "sono", "nella", "alla"},
     "nl": {"het", "een", "van", "is", "op", "te", "dat", "niet", "met", "voor", "zijn", "aan",
            "door", "maar", "ook", "worden", "deze", "naar", "wordt"},
 }
-_NON_EN_DIACRITICS = set("àâäãáåçéèêëíìîïñóòôöõøúùûüýÿßæœđłşţğıåäö")
+_NON_EN_DIACRITICS = set("àâäêáåçéèêëíìîïñóòôöõøúùûüýÿßæœđłşţğıåäö")
 _WORD = re.compile(r"[^\W\d_]+", re.UNICODE)
 
 
