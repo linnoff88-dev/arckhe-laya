@@ -1,6 +1,6 @@
-# Laya INEMA
+# Laya ARCKHÉ
 
-Repo: inematds/laya. Author e committer: inematds <inematds@gmail.com>.
+Repo: linnoff88-dev/laya. Author e committer: linnoff88-dev <linnoff88-dev@gmail.com>.
 Leia context/overview.md, context/current-state.md e tasks/current.md.
 
 - SDK upstream em laya/; adaptaçêo em practical/. Preserve a licença Apache 2.0 e a atribuiçêo.

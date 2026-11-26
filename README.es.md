@@ -1,17 +1,17 @@
-# Laya INEMA — triage práctica en portugués
+# Laya ARCKHÉ — triage práctica en portugués
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
 Adaptación de [Laya, de Convai Innovations](https://github.com/NandhaKishorM/laya), con interfaz local, API, CLI y evaluación reproducible. El SDK upstream sigue disponible; la aplicación adicional está en `practical/`.
 
-**[Guía de uso](https://inematds.github.io/laya/guia/es/)** · **[Curso v2, en un repositorio separado](https://inematds.github.io/laya-curso/)** · [README upstream preservado](docs/README-UPSTREAM.md)
+**[Guía de uso](https://linnoff88-dev.github.io/arckhe-/guia/es/)** · **[Curso v2, en un repositorio separado](https://linnoff88-dev.github.io/arckhe-/)** · [README upstream preservado](docs/README-UPSTREAM.md)
 
 ## Empezar
 
 Se recomienda Python 3.10+ para la aplicación (probado con 3.12). Se necesita internet durante la primera carga para descargar el checkpoint; funciona con CPU y la GPU es opcional.
 
 ```bash
-git clone https://github.com/inematds/laya.git
+git clone https://github.com/linnoff88-dev/laya.git
 cd laya
 python3 -m venv .venv
 source .venv/bin/activate
@@ -77,6 +77,6 @@ Las dos pruebas upstream son **scripts**, no módulos pytest. La prueba upstream
 
 ## Procedencia y licencia
 
-Base upstream: `42626c348753fbb17572a813127df2278a1ec527`. Adaptación INEMA: **v0.4.4**. [Análisis de las fuentes](docs/ANALISE.md) · [Changelog](CHANGELOG.md) · [Licencia Apache 2.0](LICENSE).
+Base upstream: `42626c348753fbb17572a813127df2278a1ec527`. Adaptación ARCKHÉ: **v0.4.4**. [Análisis de las fuentes](docs/ANALISE.md) · [Changelog](CHANGELOG.md) · [Licencia Apache 2.0](LICENSE).
 
 El código y los pesos siguen atribuidos a sus autores originales. Los materiales integrales de terceros (video, transcripción, artículos) se conservan en el archivo local de investigación; el repositorio publica una síntesis original, referencias y evidencias del laboratorio. En esta entrega no se ejecutó Jev ni se entrenó un modelo nuevo.

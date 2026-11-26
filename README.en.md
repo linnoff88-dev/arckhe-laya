@@ -1,17 +1,17 @@
-# Laya INEMA — practical triage in Portuguese
+# Laya ARCKHÉ — practical triage in Portuguese
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
 An adaptation of [Laya by Convai Innovations](https://github.com/NandhaKishorM/laya), with a local interface, API, CLI, and reproducible evaluation. The upstream SDK remains available; the additional application lives in `practical/`.
 
-**[User guide](https://inematds.github.io/laya/guia/en/)** · **[Course v2, in a separate repository](https://inematds.github.io/laya-curso/)** · [Preserved upstream README](docs/README-UPSTREAM.md)
+**[User guide](https://linnoff88-dev.github.io/arckhe-/guia/en/)** · **[Course v2, in a separate repository](https://linnoff88-dev.github.io/arckhe-/)** · [Preserved upstream README](docs/README-UPSTREAM.md)
 
 ## Getting Started
 
 Python 3.10+ is recommended for the application (tested with 3.12). Internet access is needed on first load to download the checkpoint; CPU works, GPU is optional.
 
 ```bash
-git clone https://github.com/inematds/laya.git
+git clone https://github.com/linnoff88-dev/laya.git
 cd laya
 python3 -m venv .venv
 source .venv/bin/activate
@@ -77,6 +77,6 @@ The two upstream tests are **scripts**, not pytest modules. The upstream `test_l
 
 ## Provenance and License
 
-Upstream base: `42626c348753fbb17572a813127df2278a1ec527`. INEMA adaptation: **v0.4.4**. [Source analysis](docs/ANALISE.md) · [Changelog](CHANGELOG.md) · [Apache 2.0 License](LICENSE).
+Upstream base: `42626c348753fbb17572a813127df2278a1ec527`. ARCKHÉ adaptation: **v0.4.4**. [Source analysis](docs/ANALISE.md) · [Changelog](CHANGELOG.md) · [Apache 2.0 License](LICENSE).
 
 Code and weights remain attributed to their original authors. Complete third-party materials (videos, transcripts, articles) are kept in the local research archive; the repository publishes an original summary, references, and lab evidence. Jev was not run, and no new model was trained for this release.

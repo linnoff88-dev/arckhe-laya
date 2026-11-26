@@ -1,17 +1,17 @@
-ï»¿# Laya INEMA ê¢â¬â triagem prêÂ¡tica em portuguêÂªs
+ï»¿# Laya ARCKHÉ ê¢â¬â triagem prêÂ¡tica em portuguêÂªs
 
 **ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
 AdaptaêÂ§êÂ£o do [Laya, da Convai Innovations](https://github.com/NandhaKishorM/laya), com interface local, API, CLI e avaliaêÂ§êÂ£o reproduzêÂ­vel. O SDK upstream permanece disponêÂ­vel; a aplicaêÂ§êÂ£o adicional vive em `practical/`.
 
-**[Guia de uso](https://inematds.github.io/laya/guia/)** êÂ· **[Curso v2, em repositêÂ³rio separado](https://inematds.github.io/laya-curso/)** êÂ· [README upstream preservado](docs/README-UPSTREAM.md)
+**[Guia de uso](https://linnoff88-dev.github.io/arckhe-/guia/)** êÂ· **[Curso v2, em repositêÂ³rio separado](https://linnoff88-dev.github.io/arckhe-/)** êÂ· [README upstream preservado](docs/README-UPSTREAM.md)
 
 ## ComeêÂ§ar
 
 Python 3.10+ recomendado para a aplicaêÂ§êÂ£o (testado com 3.12). Internet na primeira carga para baixar o checkpoint; CPU funciona, GPU êÂ© opcional.
 
 ```bash
-git clone https://github.com/inematds/laya.git
+git clone https://github.com/linnoff88-dev/laya.git
 cd laya
 python3 -m venv .venv
 source .venv/bin/activate
@@ -77,7 +77,7 @@ Os dois testes upstream sêÂ£o **scripts**, nêÂ£o mêÂ³dulos pytest
 
 ## ProveniêÂªncia e licenêÂ§a
 
-Base upstream: `42626c348753fbb17572a813127df2278a1ec527`. AdaptaêÂ§êÂ£o INEMA: **v0.4.4**. [AnêÂ¡lise das fontes](docs/ANALISE.md) êÂ· [Changelog](CHANGELOG.md) êÂ· [LicenêÂ§a Apache 2.0](LICENSE).
+Base upstream: `42626c348753fbb17572a813127df2278a1ec527`. AdaptaêÂ§êÂ£o ARCKHÉ: **v0.4.4**. [AnêÂ¡lise das fontes](docs/ANALISE.md) êÂ· [Changelog](CHANGELOG.md) êÂ· [LicenêÂ§a Apache 2.0](LICENSE).
 
 CêÂ³digo e pesos continuam atribuêÂ­dos aos autores originais. Materiais integrais de terceiros (vêÂ­deo, transcriêÂ§êÂ£o, artigos) ficam no acervo local de pesquisa; o repositêÂ³rio publica sêÂ­ntese autoral, referêÂªncias e evidêÂªncias do laboratêÂ³rio. NêÂ£o foi executado Jev nem treinamento de um novo modelo nesta entrega.
 

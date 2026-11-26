@@ -7,7 +7,7 @@ from .engine import Engine, evaluate
 
 
 def main():
-    p = argparse.ArgumentParser(description='Laya INEMA — triagem local em português')
+    p = argparse.ArgumentParser(description='Laya ARCKHÉ — triagem local em português')
     p.add_argument('--device', choices=['cpu', 'cuda', 'mps'], default='cpu')
     p.add_argument('--threshold', type=float, default=.85)
     p.add_argument('--model-path', help='Checkpoint local opcional, já baixado')

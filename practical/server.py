@@ -13,7 +13,7 @@ class Ticket(BaseModel):
 
 def create_app(engine=None):
     engine = engine or Engine()
-    app = FastAPI(title='Laya INEMA — triagem', version=__version__)
+    app = FastAPI(title='Laya ARCKHÉ — triagem', version=__version__)
     @app.get('/')
     def index(): return FileResponse(Path(__file__).with_name('index.html'))
     @app.get('/api/health')

@@ -4,7 +4,7 @@
 
 Os dois textos enviados foram lidos integralmente e as três imagens inspecionadas. O link técnico principal foi clonado integralmente: [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya), commit `42626c348753fbb17572a813127df2278a1ec527`. Foram examinados README, BENCHMARKS, SDK (`agent`, `common`, `router`, `lang`, presets), testes, relatórios de pesquisa e notebook de fine-tuning (19 células extraídas para texto).
 
-O [vídeo](https://www.youtube.com/watch?v=KySbNMsBU70) foi baixado via inemavox em 1080p e transcrito integralmente com Whisper large-v3: cerca de 26min10s, 401 segmentos, inglês. Vídeo e transcriçêo local em `/home/nmaldaner/projetos/output/laya/fontes/`. A transcriçêo automática troca ocasionalmente Laya por Leia/Leah e ModernBERT por Modern Bird; nomes técnicos foram normalizados na síntese.
+O [vídeo](https://www.youtube.com/watch?v=KySbNMsBU70) foi baixado via ARCKHÉvox em 1080p e transcrito integralmente com Whisper large-v3: cerca de 26min10s, 401 segmentos, inglês. Vídeo e transcriçêo local em `/home/nmaldaner/projetos/output/laya/fontes/`. A transcriçêo automática troca ocasionalmente Laya por Leia/Leah e ModernBERT por Modern Bird; nomes técnicos foram normalizados na síntese.
 
 Também foram baixados: artigo do criador no DEV.to (via Jina após 403 da API), fichas dos três checkpoints no Hugging Face, código app.py da demo, metadados PyPI e READMEs dos dois benchmarks independentes de Jev referenciados pelo upstream. Os arquivos de terceiros ficam no acervo local, sem republicaçêo integral no curso. Consulte `fontes-manifesto.json` para hashes. Nêo fizemos uma varredura recursiva ilimitada de todo link de navegaçêo de cada site.
 
